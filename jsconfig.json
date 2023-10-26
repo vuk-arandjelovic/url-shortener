@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			// "_mock/*": ["src/_mock/*"],
+			"@assets/*": ["src/assets/*"],
+			"@auth/*": ["src/auth/*"],
+			"@components/*": ["src/components/*"],
+			"@hooks/*": ["src/hooks/*"],
+			"@layouts/*": ["src/layouts/*"],
+			"@locales/*": ["src/locales/*"],
+			"@pages/*": ["src/pages/*"],
+			"@redux/*": ["src/redux/*"],
+			"@routes/*": ["src/routes/*"],
+			"@sections/*": ["src/sections/*"],
+			"@theme/*": ["src/theme/*"],
+			"@utils/*": ["src/utils/*"],
+			"@utils": ["src/utils/index"],
+			"@config": ["src/config"],
+			"@services": ["src/services"]
+		}
+	},
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+}
